@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="flex">
+    <div class="x1">
+      <div onclick="cookie_clicked()" id="cookie">0</div>
+    </div>
+    <div class="x1"></div>
+    <div class="x1">
+    <div class="x1">
+      <div class="center">Store</div>
+      <div>Upgrades</div>
+      <div>
+      </div>
+      <div>Buildings</div>
+      <div>
+        <div onclick="buy('cursor')" class="flex disabled" id="buy-cursor">
+          <div>
+            <img src="https://place-hold.it/50" alt="">
+          </div>
+          <div>
+            <div id="label-cursor">???</div>
+            <div id="price-cursor">20</div>
+          </div>
+        </div>
+        <div onclick="buy('grandma')" class="flex disabled" id="buy-grandma">
+          <div>
+            <img src="https://place-hold.it/50" alt="">
+          </div>
+          <div>
+            <div id="label-grandma">???</div>
+            <div id="price-grandma">100</div>
+          </div>
+        </div>
+      <div onclick="buy('farm')" class="flex disabled" id="buy-farm">
+      <div>
+      <img src="https://place-hold.it/50" alt="">
+  </div>
+  <div>
+     <div id="label-farm">???</div>
+    <div id="price-farm">500</div>
+  </div>
+ </div>
+</div>
+  <button onclick="saveGame()">Save</button>
+  <button onclick="wipeSave()">Delete</button>
+  <script src="script.js"></script>
+</body>
+</html>

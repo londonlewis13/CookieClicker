@@ -1,0 +1,33 @@
+body div {
+  border: solid black 1px;
+  margin: 5px;
+  padding: 5px;
+}
+
+#cookie {
+  background-color: tan;
+  border: solid saddlebrown 7px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 32px;
+  -webkit-user-select: none; /* Safari */
+  user-select: none;
+  cursor: pointer;
+}
+
+#buy-cursor:hover {
+  opacity: 0.8;
+  user-select: none;
+  cursor: pointer;
+}
+
+.flex { display: flex; }
+.x1 { flex: 1; }
+.center { text-align: center; }
+
+.disabled {
+  background-color: lightgrey;
+}
